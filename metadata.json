@@ -1,0 +1,6 @@
+{
+  "name": "PushGuard AI - Secure File Push Validation Agent",
+  "description": "Lightweight DevSecOps AI Validation Agent for inspecting, sanitizing, and auditing incoming API push files with zero operating cost.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

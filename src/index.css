@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .glow-green {
+    box-shadow: 0 0 18px rgba(34, 197, 94, 0.35);
+  }
+  .glass {
+    background: rgba(24, 24, 27, 0.65);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(63, 63, 70, 0.5);
+  }
+  .arch-line {
+    background-image: linear-gradient(90deg, #27272a 50%, transparent 50%);
+    background-size: 10px 1px;
+    height: 1px;
+  }
+}
+
+body {
+  background-color: #0a0a0b;
+  color: #e4e4e7;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
